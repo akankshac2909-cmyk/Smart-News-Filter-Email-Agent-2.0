@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agentic News Filter</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Agentic News</h1>
+      <p>Autonomously filters noise & emails you the highlights.</p>
+    </header>
+    
+    <div class="input-group">
+      <label for="interests">Your Interests (comma separated)</label>
+      <input type="text" id="interests" placeholder="e.g. AI, Space, Finance">
+    </div>
+    
+    <div class="input-group">
+      <label for="email">Your Email Address</label>
+      <input type="email" id="email" placeholder="you@example.com">
+    </div>
+
+    <button id="filterBtn">Clean Feed & Email Me</button>
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
